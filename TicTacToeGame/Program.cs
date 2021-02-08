@@ -153,7 +153,7 @@ namespace TicTacToeGame
         static void Main(string[] args)
         {
             char[] letter = { 'X', 'O' };
-            Console.WriteLine(" Welcome to Tic Tac Toe Game");
+            Console.WriteLine(" Welcome to TicTacToe Game");
 
             // TicTacToe.chooseLetter(letter);   
             TicTacToe.makeAMove(letter);
