@@ -177,7 +177,11 @@ namespace TicTacToeGame
 
         public static void availabelSides(char[] letter, int indexPlayer)
         {
+<<<<<<< HEAD
             if ((board[2] == ' ' || board[4] == ' ' || board[6] == ' ' || board[8] == ' ') && (board[1] != ' ' && board[3] != ' ' && board[7] != ' ' && board[9] != ' ' && board[5] != ' '))
+=======
+            if (board[2] == ' ' || board[4] == ' ' || board[6] == ' ' || board[8] == ' ')
+>>>>>>> UC11CornersAreNotAvailableThenTakeTheCenter
             {
                 board[indexPlayer] = letter[0];
             }
@@ -185,7 +189,11 @@ namespace TicTacToeGame
 
         public static void availabelCentre(char[] letter)
         {
+<<<<<<< HEAD
             if (board[5] == ' ' && (board[1] != ' ' && board[3] != ' ' && board[7] != ' ' && board[9] != ' '))
+=======
+            if (board[5] == ' ')
+>>>>>>> UC11CornersAreNotAvailableThenTakeTheCenter
             {
                 int indexPlayer = 5;
                 board[indexPlayer] = letter[0];
