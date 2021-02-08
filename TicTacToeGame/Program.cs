@@ -81,7 +81,7 @@ namespace TicTacToeGame
                             Environment.Exit(0);
                         }
                     }
-                    showBoard();
+                    showBoard();//showBoard
                 }
 
             }
